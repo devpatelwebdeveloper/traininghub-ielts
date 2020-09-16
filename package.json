@@ -1,0 +1,60 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "Traininghub Website",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@geedmo/yamm": "^4.0.0",
+    "apollo-server-express": "2.9.12",
+    "aws-sdk": "^2.577.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "body-parser": "^1.19.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "express": "^4.17.1",
+    "gatsby": "^2.23.20",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-sass": "^2.1.24",
+    "gatsby-plugin-sitemap": "^2.4.13",
+    "gatsby-plugin-styled-components": "^3.1.11",
+    "gatsby-source-graphql": "^2.1.24",
+    "graphql": "^14.5.8",
+    "graphql-tools": "^4.0.6",
+    "node-sass": "^4.14.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "react-icons-kit": "^1.3.1",
+    "react-slick": "^0.27.11",
+    "react-uid": "^2.2.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "mem": ">=4.0.0",
+    "prettier": "^1.18.2",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devpatelwebdeveloper/traininghub-gatsby"
+  }
+}
