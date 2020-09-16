@@ -59,11 +59,21 @@ export default function Navi() {
             {TopNavigation.map((navItem) => {
               if (navItem.Dropdown) {
                 return (
-                  <NavigationInternal
+                  <StyledNavDropdown
                     title={navItem.DisplayText}
-                    descTitle={navItem.DescTitle}
-                    description={navItem.Description}
-                  />
+                    id="nav-dropdown">
+                    {navItem.Subnav.map((sub) => {
+                      return (
+                        <NavDropdown.Item>
+                          <BaseLink
+                            href={sub.Link}
+                            composedClassName="nav-link">
+                            {sub.DisplayText}
+                          </BaseLink>
+                        </NavDropdown.Item>
+                      );
+                    })}
+                  </StyledNavDropdown>
                 );
               }
               return (
@@ -72,21 +82,6 @@ export default function Navi() {
                 </BaseLink>
               );
             })}
-            <StyledNavDropdown title="Recruitment" id="nav-dropdown">
-              <NavDropdown.Item>
-                <BaseLink href="/employers" composedClassName="nav-link">
-                  Employers
-                </BaseLink>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <BaseLink href="/job-seeker" composedClassName="nav-link">
-                  Job Seeker
-                </BaseLink>
-              </NavDropdown.Item>
-            </StyledNavDropdown>
-            <BaseLink href="/contact-us" composedClassName="nav-link">
-              Contact us
-            </BaseLink>
           </Nav>
         </Navbar.Collapse>
       </StyledNav>

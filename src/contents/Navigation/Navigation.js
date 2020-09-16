@@ -14,27 +14,51 @@ const TopNavigation = [
     Description: "",
   },
   {
-    DisplayText: "Courses",
-    Link: "#",
-    Dropdown: true,
-    DescTitle: "Our available courses",
-    Description:
-      "All the courses and the course contents are handcrafted with the real world scenarios in mind. We keep on continuously updating the courses as new technologies are introduced and the requirement of job changes.",
+    DisplayText: "IELTS",
+    Link: "/ielts",
+    Dropdown: false,
+    DescTitle: "IELTS",
+    Description: "",
   },
-  // {
-  //   DisplayText: "Recruitment",
-  //   Link: "/recruitment",
-  //   Dropdown: false,
-  //   DescTitle: "Recruitment",
-  //   Description: "",
-  // },
-  // {
-  //   DisplayText: "Contact us",
-  //   Link: "/contact-us",
-  //   Dropdown: false,
-  //   DescTitle: "Contact us",
-  //   Description: "",
-  // },
+  {
+    DisplayText: "IELTS Modules",
+    Dropdown: true,
+    DescTitle: "IELTS",
+    Description: "",
+    Subnav: [
+      {
+        DisplayText: "Listening",
+        Link: "/ielts/listening",
+        DescTitle: "Listening",
+        Description: "",
+      },
+      {
+        DisplayText: "Reading",
+        Link: "/ielts/reading",
+        DescTitle: "Reading",
+        Description: "",
+      },
+      {
+        DisplayText: "Writing",
+        Link: "/ielts/writing",
+        DescTitle: "Writing",
+        Description: "",
+      },
+      {
+        DisplayText: "Speaking",
+        Link: "/ielts/speaking",
+        DescTitle: "Speaking",
+        Description: "",
+      },
+    ],
+  },
+  {
+    DisplayText: "Contact us",
+    Link: "/contact-us",
+    Dropdown: false,
+    DescTitle: "Contact us",
+    Description: "",
+  },
 ];
 
 export { TopNavigation };

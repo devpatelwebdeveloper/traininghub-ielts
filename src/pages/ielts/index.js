@@ -7,7 +7,7 @@ import CourseBlock from "../../components/blocks/CoursesBlocks/CoursesBlocks";
 export default function Courses() {
   return (
     <>
-      <Head title="Courses" />
+      <Head title="IELTS" />
       <Layout>
         <TopBannerCourse />
         <section>
