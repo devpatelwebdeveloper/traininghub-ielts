@@ -18,7 +18,10 @@ export default function HomePage() {
       <Head title="Home" />
       <Layout>
         <Slider HomePageSlides={HomePageSliders} />
-        <Tiles title="Redefining future in IT Learning" tiles={HomePageCards} />
+        <Tiles
+          title="IELTS Target 8777? Together WE CAN!"
+          tiles={HomePageCards}
+        />
         <CourseCards />
         <TestimonialSlider
           testimonials={Testimonials}

@@ -34,12 +34,7 @@ export default function CourseCards() {
       margin="50px"
       padding="50px"
       background={Styles.Colors.BaseLightBlue}>
-      <BaseTitle
-        title="Achieve your career goals with industry-recognized learning paths"
-        size="H3"
-        center
-        underline
-      />
+      <BaseTitle title="IELTS Test modules" size="H3" center underline />
       <Row>
         {Courses.map((course) => (
           <CourseCard

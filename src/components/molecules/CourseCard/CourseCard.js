@@ -76,7 +76,7 @@ export default class BaseTile extends React.PureComponent {
     const { tag, title, image, alt, href } = this.props;
     if (href) {
       return (
-        <StyledCol lg={4} md={6} sm={12}>
+        <StyledCol lg={3} md={6} sm={12}>
           <Link to={href}>
             <Card>
               <StyledImg alt={alt} title={alt} src={image} />
@@ -90,7 +90,7 @@ export default class BaseTile extends React.PureComponent {
       );
     }
     return (
-      <StyledCol lg={4} md={6} sm={12}>
+      <StyledCol lg={3} md={6} sm={12}>
         <Card>
           <StyledImg alt={alt} title={alt} src={image} />
           <CardContent>
