@@ -53,10 +53,10 @@ export default class SingleCoursePage extends React.Component {
             imageTwo={Course.coursePage.studentJourney.imageTwo}
             imageTwoAlt={Course.coursePage.studentJourney.imageTwoAlt}
           />
-          <Accordion
+          {/* <Accordion
             accordions={Course.coursePage.courseContent}
             title="Course Content"
-          />
+          /> */}
           <RelatedCourses title={Course.tag} currentHref={Course.href} />
         </Layout>
       </>

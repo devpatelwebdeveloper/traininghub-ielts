@@ -14,7 +14,7 @@ export default class Paragraph extends React.Component {
   };
   static defaultProps = {
     title: "",
-    topHeader: "RelatedCourses",
+    topHeader: "Other Modules",
     currentHref: "#",
   };
   render() {
@@ -28,7 +28,7 @@ export default class Paragraph extends React.Component {
     return (
       <Section padding="20px" margin="50px">
         <BaseTitle
-          title={RelatedCourses.length <= 1 ? "Other Courses" : topHeader}
+          title={RelatedCourses.length <= 1 ? "Other Modules" : topHeader}
           size="H3"
           center
           underline

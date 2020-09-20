@@ -214,6 +214,91 @@ export default function Courses() {
         </>
       ),
     },
+    {
+      title: "Band System",
+      paragraph: (
+        <>
+          <Paragraph>
+            <strong>9 –</strong> Expert Users: Has full command of the language:
+            appropriate, accurate and fluent with complete understanding. It is
+            very hard to attain this score.
+          </Paragraph>
+          <Paragraph>
+            <strong>8 –</strong> Very Good Users: Has fully operational command
+            of the language with only occasional unsystematic inaccuracies and
+            inappropriacies. Handles complex detailed argumentation well.
+          </Paragraph>
+          <Paragraph>
+            <strong>7 –</strong> Good User: Has operational command of the
+            language, though with occasional inaccuracies, inappropriateness and
+            misunderstandings in some situations. Generally handles complex
+            language well and understands detailed reasoning.
+          </Paragraph>
+          <Paragraph>
+            <strong>6 –</strong> Competent Users : Has generally effective
+            command of the language despite some inaccuracies, in appropriacies
+            and misunderstandings. Can use and understand fairly complex
+            language, particularly in familiar situations.
+          </Paragraph>
+          <Paragraph>
+            <strong>5 –</strong> Modest Users: Has a partial command of the
+            language, coping with overall meaning in most situations, though is
+            likely to make many mistakes. The candidate should be able to handle
+            communication in his or her own field.
+          </Paragraph>
+          <Paragraph>
+            <strong>4 –</strong> Limited Users: Basic competence is limited to
+            familiar situations. Have frequent problems in using complex
+            language.
+          </Paragraph>
+          <Paragraph>
+            <strong>3 –</strong> Extremely Limited Users: Conveys and
+            understands only general meaning in very familiar situations.
+            Frequent breakdowns in communication occur.
+          </Paragraph>
+          <Paragraph>
+            <strong>2 –</strong> Intermittent Users: No real communication is
+            possible except for the most basic information using isolated words
+            or short formulae in familiar situations and to meet immediate
+            needs. Has great difficulty understanding spoken and written
+            English.
+          </Paragraph>
+          <Paragraph>
+            <strong>1 –</strong> Non User: Essentially has no ability to use the
+            language beyond possibly a few isolated words.
+          </Paragraph>
+          <Paragraph>
+            <strong>0 –</strong> Did not attempt the test.
+          </Paragraph>
+        </>
+      ),
+    },
+    {
+      title: "Validity of Score",
+      paragraph: (
+        <ul>
+          <li>
+            The IELTS examination is held thrice a month. Scores are valid for
+            two years from the date the test was taken.
+          </li>
+          <li>
+            However it is advised to the candidates that the scores should be
+            more recent as the time at which the candidate actually applies for
+            visa, is when his score is more than a year old, so his level of
+            English could witness a sea change.
+          </li>
+          <li>
+            Moreover while taking admission to an educational institute, only
+            the most recent scores are considered.
+          </li>
+          <li>
+            Even Test Report Forms are valid for two years. They have inbuilt
+            security measures and cannot be copied. Receiving institutions can
+            also access a database to double-check your results
+          </li>
+        </ul>
+      ),
+    },
   ];
   return (
     <>
@@ -238,7 +323,7 @@ export default function Courses() {
           <CourseBlock />
         </Section>
         <Section marginTop="50px" marginBottom="25px">
-          <Accordion accordions={faqs} title="FAQs" />
+          <Accordion accordions={faqs} title="Frequently Asked Questions" />
         </Section>
       </Layout>
     </>
