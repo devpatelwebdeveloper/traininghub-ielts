@@ -92,18 +92,14 @@ export default class SingleCourseBlock extends React.Component {
         </CourseImage>
         <Col md={7}>
           <BaseTitle title={courseTitle} size="H4" />
-          <Tags>
+          {/* <Tags>
             <StyledLabel>{courseTech}</StyledLabel>
             <StyledDate>{isCourseStartDate}</StyledDate>
-          </Tags>
+          </Tags> */}
           <Paragraph>{courseDescription}</Paragraph>
         </Col>
         <Col>
-          <Button
-            link={exploreCourseButtonLink}
-            text="Explore Course"
-            external
-          />
+          <Button link={exploreCourseButtonLink} text="Learn more" external />
           <Button link="/contact-us" text="Contact us" outline />
         </Col>
       </StyledRow>
