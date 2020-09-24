@@ -33,7 +33,7 @@ export default class SingleCoursePage extends React.Component {
             text={Course.description}
             courseImage={Course.coursePage.courseImage}
           />
-          <Section margin="24px" padding="24px">
+          {/* <Section margin="24px" padding="24px">
             <ContentGenericAligned
               title={Course.title}
               text={Course.coursePage.courseIntroduction}
@@ -44,7 +44,7 @@ export default class SingleCoursePage extends React.Component {
               buttonOneText="Contact us"
               buttonOneExternal
             />
-          </Section>
+          </Section> */}
           <StudentJourney
             heading={Course.coursePage.studentJourney.heading}
             paragraphContent={Course.coursePage.studentJourney.paragraphContent}

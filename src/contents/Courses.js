@@ -1,6 +1,6 @@
 import React from "react";
 import Paragraph from "../components/atoms/Paragraph/Paragraph";
-
+import { listening } from "./icons/modules";
 const Courses = [
   //Listening
   {
@@ -12,16 +12,17 @@ const Courses = [
     alt: "Listening",
     description:
       "Listening consists of 4 sections mainly and there are ten questions in each section. Sections 1 and 2 are based on social survival in an English speaking country and sections 3 and 4 are based on a more educational and training orientation. The listening audio tape lasts for about 30 minutes and then you have 10 minutes at the end of the listening to transfer your answers to the answer sheet.",
+    topbannericon: listening,
     startDate: "",
     courseImage:
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
     coursePage: {
       courseImage:
-        "https://devashish-lms.s3.ca-central-1.amazonaws.com/BigData/BigData.png",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ielts-toefl-yds.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmaxresdefault.jpg&f=1&nofb=1",
       courseIntroduction:
         "Our Big Data Hadoop & Spark Regular training course is designed to coverall required big data tools. This course will help you to understand the basics and advanced concept of Hadoop & Spark with all components like HDFS, Map Reduce, YARN, Sqoop, Flume, Hive, Impala, Spark Core API, Spark SQL, Spark Streaming, Oozie, ZooKeeper and some basics of Hadoop administration. Most importantly, this course focused on hands-on exercises, real-time use cases and topic wise code practice which will help you to get practical use of tools and codes rather than knowing only theoretical concepts.",
       courseIntroductionImage:
-        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ielts-toefl-yds.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmaxresdefault.jpg&f=1&nofb=1",
       // courseContent: BigDataHadoopSpark,
       studentJourney: {
         heading: "Student Journey",

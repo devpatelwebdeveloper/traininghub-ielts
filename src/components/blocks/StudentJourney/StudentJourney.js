@@ -46,17 +46,13 @@ export default class StudentJourney extends React.Component {
       </Row>
     ) : null;
     return (
-      <Section
-        background={Styles.Colors.BaseElement}
-        padding="20px"
-        marginBottom="50px">
-        <BaseTitle title={heading} size="H2" center underline />
+      <Section padding="20px" marginBottom="50px">
+        <BaseTitle title={heading} size="H2" />
         <Row>
           <Col>
-            <Paragraph centered>{paragraphContent}</Paragraph>
+            <Paragraph>{paragraphContent}</Paragraph>
           </Col>
         </Row>
-        {images}
       </Section>
     );
   }
