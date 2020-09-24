@@ -1,30 +1,5 @@
 import React from "react";
 import Paragraph from "../components/atoms/Paragraph/Paragraph";
-// import { BigDataHadoopSpark } from "./Accordions/Accordions";
-import { Listening } from "./icons/ModuleIcons/ModuleIcons";
-const icons = {
-  web:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/svgIcons/webdesign.svg",
-  qe:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/svgIcons/quality-assurance.svg",
-  bigdata:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/svgIcons/server.svg",
-  python:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/svgIcons/python-file.svg",
-};
-
-const courseImage = {
-  microsoft:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/sqlDeveloper_TrainingHub.jpg",
-  web:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/WebDeveloper_Traininghub.jpg",
-  qe:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/QualityEngineering_TrainingHub.jpg",
-  bigdata:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/BigData/bigdata.jpg",
-  python:
-    "https://devashish-lms.s3.ca-central-1.amazonaws.com/python/pythonTrainingHub_io.jpg",
-};
 
 const Courses = [
   //Listening
@@ -38,14 +13,15 @@ const Courses = [
     description:
       "Listening consists of 4 sections mainly and there are ten questions in each section. Sections 1 and 2 are based on social survival in an English speaking country and sections 3 and 4 are based on a more educational and training orientation. The listening audio tape lasts for about 30 minutes and then you have 10 minutes at the end of the listening to transfer your answers to the answer sheet.",
     startDate: "",
-    courseImage: courseImage.bigdata,
+    courseImage:
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
     coursePage: {
       courseImage:
         "https://devashish-lms.s3.ca-central-1.amazonaws.com/BigData/BigData.png",
       courseIntroduction:
         "Our Big Data Hadoop & Spark Regular training course is designed to coverall required big data tools. This course will help you to understand the basics and advanced concept of Hadoop & Spark with all components like HDFS, Map Reduce, YARN, Sqoop, Flume, Hive, Impala, Spark Core API, Spark SQL, Spark Streaming, Oozie, ZooKeeper and some basics of Hadoop administration. Most importantly, this course focused on hands-on exercises, real-time use cases and topic wise code practice which will help you to get practical use of tools and codes rather than knowing only theoretical concepts.",
       courseIntroductionImage:
-        "https://devashish-lms.s3.ca-central-1.amazonaws.com/BigData/BigDataHadoopSpark.jpg",
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
       // courseContent: BigDataHadoopSpark,
       studentJourney: {
         heading: "Student Journey",
@@ -71,7 +47,8 @@ const Courses = [
     description:
       "The reading passages are different for both Academic and General training candidates. Remember the format is the same but attempt is different and also the type and level of technical skills is different for both. The test has 40 questions based on a series of 3 passages. The test has to be completed in 60 minutes and no extra time will be given.",
     startDate: "",
-    courseImage: courseImage.bigdata,
+    courseImage:
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Reading-Test.jpg",
     coursePage: {
       courseImage:
         "https://devashish-lms.s3.ca-central-1.amazonaws.com/BigData/BigData.png",
@@ -104,7 +81,8 @@ const Courses = [
     description:
       "The writing section in IELTS is also different in case of Academic and General Training examinees.",
     startDate: "",
-    courseImage: courseImage.bigdata,
+    courseImage:
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Writing-Test.jpg",
     coursePage: {
       courseImage:
         "https://devashish-lms.s3.ca-central-1.amazonaws.com/BigData/BigData.png",
@@ -137,7 +115,8 @@ const Courses = [
     description:
       "IELTS Speaking is a one-to-one interaction between the candidate and the examiner. The three parts give the candidate the opportunity to use a range of different speaking skills. IELTS Speaking is recorded. Speaking test varies from 11-14 minutes. Assessment of candidates takes place through their performance in the test.",
     startDate: "",
-    courseImage: courseImage.bigdata,
+    courseImage:
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Speaking-Test.jpg",
     coursePage: {
       courseImage:
         "https://devashish-lms.s3.ca-central-1.amazonaws.com/BigData/BigData.png",

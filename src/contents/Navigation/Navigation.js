@@ -6,13 +6,7 @@ const TopNavigation = [
     DescTitle: "Home",
     Description: "",
   },
-  {
-    DisplayText: "About us",
-    Link: "/about-us",
-    Dropdown: false,
-    DescTitle: "About us",
-    Description: "",
-  },
+
   {
     DisplayText: "IELTS",
     Link: "/ielts",
@@ -21,37 +15,34 @@ const TopNavigation = [
     Description: "",
   },
   {
-    DisplayText: "IELTS Modules",
-    Dropdown: true,
-    DescTitle: "IELTS",
+    DisplayText: "Listening",
+    Link: "/ielts/listening",
+    DescTitle: "Listening",
     Description: "",
-    Subnav: [
-      {
-        DisplayText: "Listening",
-        Link: "/ielts/listening",
-        DescTitle: "Listening",
-        Description: "",
-      },
-      {
-        DisplayText: "Reading",
-        Link: "/ielts/reading",
-        DescTitle: "Reading",
-        Description: "",
-      },
-      {
-        DisplayText: "Writing",
-        Link: "/ielts/writing",
-        DescTitle: "Writing",
-        Description: "",
-      },
-      {
-        DisplayText: "Speaking",
-        Link: "/ielts/speaking",
-        DescTitle: "Speaking",
-        Description: "",
-      },
-    ],
+    Dropdown: false,
   },
+  {
+    DisplayText: "Reading",
+    Link: "/ielts/reading",
+    DescTitle: "Reading",
+    Description: "",
+    Dropdown: false,
+  },
+  {
+    DisplayText: "Writing",
+    Link: "/ielts/writing",
+    DescTitle: "Writing",
+    Description: "",
+    Dropdown: false,
+  },
+  {
+    DisplayText: "Speaking",
+    Link: "/ielts/speaking",
+    DescTitle: "Speaking",
+    Description: "",
+    Dropdown: false,
+  },
+
   {
     DisplayText: "Contact us",
     Link: "/contact-us",

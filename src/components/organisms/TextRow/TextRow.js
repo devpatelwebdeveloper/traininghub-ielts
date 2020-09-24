@@ -9,7 +9,7 @@ import styled from "styled-components";
 import Styles from "../../../styles/Styles";
 
 const ShadowRow = styled(Row)`
-  border-radius: 0px 12px 12px 12px;
+  border-radius: 0px 0px 12px 12px;
   overflow: hidden;
   box-shadow: 0px 15px 20px 0px rgba(46, 61, 73, 0.15);
 `;

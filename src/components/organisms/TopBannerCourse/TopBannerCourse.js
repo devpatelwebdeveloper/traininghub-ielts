@@ -17,7 +17,7 @@ const StyledSection = styled.section`
   background-image: url(${(props) => props.background || SchoolBoard});
   background-repeat: no-repeat;
   background-size: 400px;
-  background-position: 100% 10%, 95% 60%, center bottom;
+  background-position: 85% 10%, 95% 60%, center bottom;
   h1,
   h4,
   p {

@@ -7,6 +7,7 @@ import TextRow from "../../components/organisms/TextRow/TextRow";
 import Accordion from "../../components/blocks/Accordion/Accordion";
 import Section from "../../components/organisms/Section/Section";
 import Paragraph from "../../components/atoms/Paragraph/Paragraph";
+import Background from "../../contents/icons/ielts.svg";
 
 export default function Courses() {
   const contentCols = [
@@ -307,6 +308,7 @@ export default function Courses() {
         <TopBannerCourse
           courseTitle="IELTS"
           text="The International English Language Testing System (IELTS) is the world’s most recognized and proven English test. Millions of candidates take IELTS each year to start their journey into international education, employment, and for Canadian immigration."
+          background={Background}
         />
         <TextRow
           contentCols={contentCols}
