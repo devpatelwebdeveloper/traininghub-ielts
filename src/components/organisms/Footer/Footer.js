@@ -98,76 +98,25 @@ export default function Footer() {
               <li>
                 <Link to="/contact-us">Contact us</Link>
               </li>
+            </ul>
+          </FeaturedLinks>
+          <FeaturedLinks md={2} sm={6}>
+            <BaseTitle title="IELTS" size="H5" />
+            <ul>
               <li>
-                <Link to="/careers">Work with us</Link>
+                <Link to="/ielts/listening">Listening</Link>
+              </li>
+              <li>
+                <Link to="/ielts/speaking">Speaking</Link>
+              </li>
+              <li>
+                <Link to="/ielts/writing">Writing</Link>
+              </li>
+              <li>
+                <Link to="0/ielts/reading">Reading</Link>
               </li>
             </ul>
           </FeaturedLinks>
-          <CoursesLink md={6} sm={12}>
-            <BaseTitle title="Courses" size="H5" />
-
-            <Row>
-              <Col md={6}>
-                <ul>
-                  <li>
-                    <Link to="/courses">All Courses</Link>
-                  </li>
-                </ul>
-                <BaseTitle title="Microsoft" size="H6" />
-                <ul>
-                  <li>
-                    <Link to="/courses/microsofttechnologies/sqlserverdevelopment">
-                      Microsoft SQL Developer
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/courses/microsofttechnologies/businessintelligence">
-                      MSBI
-                    </Link>
-                  </li>
-                </ul>
-                <BaseTitle title="Python" size="H6" />
-                <ul>
-                  <li>
-                    <Link to="/courses/python">Python & Data Science</Link>
-                  </li>
-                </ul>
-              </Col>
-              <Col md={6}>
-                <BaseTitle title="Data" size="H6" />
-                <ul>
-                  <li>
-                    <Link to="/courses/data/big-data-hadoop-spark">
-                      Big Data Hadoop & Spark
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/courses/data/data-warehousing">
-                      Microsoft DWH
-                    </Link>
-                  </li>
-                </ul>
-                <BaseTitle title="Web Development" size="H6" />
-                <ul>
-                  <li>
-                    <Link to="/courses/webdevelopment/javascript">
-                      JavaScript
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/courses/webdevelopment/fullstack-development">
-                      Fullstack Developer
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="/courses/webdevelopment/react-redux">
-                      React Redux
-                    </Link>
-                  </li>
-                </ul>
-              </Col>
-            </Row>
-          </CoursesLink>
         </Row>
       </FooterMain>
       <FooterLegal>
@@ -186,7 +135,7 @@ export default function Footer() {
           </Col>
           <Col md={2}>
             <a
-              href="https://www.facebook.com/TrainingHubCanada/"
+              href="https://www.facebook.com/TrainingHubIELTS"
               target="_blank"
               rel="noopener noreferrer">
               <Icon size={32} icon={facebookSquare} />
