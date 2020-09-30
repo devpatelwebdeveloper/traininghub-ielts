@@ -26,7 +26,7 @@ export default function writing() {
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
     coursePage: {
       courseImage:
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ielts-toefl-yds.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmaxresdefault.jpg&f=1&nofb=1",
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/writing/writingBanner.jpeg",
       courseIntroduction: (
         <>
           <Paragraph>
@@ -61,8 +61,10 @@ export default function writing() {
           </Paragraph>
         </>
       ),
-      courseIntroductionImage:
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ielts-toefl-yds.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmaxresdefault.jpg&f=1&nofb=1",
+      academic:
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/writing/writingAcademic.jpeg",
+      general:
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/writing/writingGeneral.jpeg",
 
       studentJourney: {
         heading: "Listening",
@@ -160,9 +162,8 @@ export default function writing() {
                 </Paragraph>
               </>
             }
-            image={Course.coursePage.courseIntroductionImage}
-            alt={Course.title}
-            ImageLeft
+            image={Course.coursePage.academic}
+            alt="Writing - Academic"
           />
         </Section>
         <Section
@@ -210,9 +211,9 @@ export default function writing() {
                 </Paragraph>
               </>
             }
-            image={Course.coursePage.courseIntroductionImage}
-            alt={Course.title}
-            ImageLeft
+            image={Course.coursePage.general}
+            alt="Writing - General"
+            imageLeft
           />
         </Section>
 

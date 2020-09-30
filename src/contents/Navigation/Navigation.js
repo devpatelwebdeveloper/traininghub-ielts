@@ -42,14 +42,6 @@ const TopNavigation = [
     Description: "",
     Dropdown: false,
   },
-
-  {
-    DisplayText: "Contact us",
-    Link: "/contact-us",
-    Dropdown: false,
-    DescTitle: "Contact us",
-    Description: "",
-  },
 ];
 
 export { TopNavigation };

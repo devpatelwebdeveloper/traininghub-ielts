@@ -14,19 +14,12 @@ export default function reading() {
   const Course = {
     tag: "IELTS",
     title: "Speaking",
-    href: "/ielts/speaking",
-    image:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/svgIcons/listener.svg",
-    alt: "Listening",
     description:
       "IELTS Speaking is a one-to-one interaction between the candidate and the examiner. The three parts give the candidate the opportunity to use a range of different speaking skills. IELTS Speaking is recorded. Speaking test varies from 11-14 minutes. Assessment of candidates takes place through their performance in the test.",
 
-    startDate: "",
-    courseImage:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
     coursePage: {
       courseImage:
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ielts-toefl-yds.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmaxresdefault.jpg&f=1&nofb=1",
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/speaking/speakingBanner.jpg",
       courseIntroduction: (
         <>
           <Paragraph>
@@ -160,9 +153,8 @@ export default function reading() {
                 </ul>
               </>
             }
-            image={Course.coursePage.courseIntroductionImage}
-            alt={Course.title}
-            ImageLeft={true}
+            image="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/speaking/speaking.jpeg"
+            alt="Speaking - Scoring system"
           />
         </Section>
 

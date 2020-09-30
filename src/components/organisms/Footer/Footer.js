@@ -87,16 +87,20 @@ export default function Footer() {
             <BaseTitle title="Company" size="H5" />
             <ul>
               <li>
-                <Link to="/about-us">About us</Link>
+                <Link to="https://www.traininghub.io/about-us">About us</Link>
               </li>
               <li>
-                <Link to="/employers">Employers</Link>
+                <Link to="https://www.traininghub.io/employers">Employers</Link>
               </li>
               <li>
-                <Link to="/job-seeker">Job Seeker</Link>
+                <Link to="https://www.traininghub.io/job-seeker">
+                  Job Seeker
+                </Link>
               </li>
               <li>
-                <Link to="/contact-us">Contact us</Link>
+                <Link to="https://www.traininghub.io/contact-us">
+                  Contact us
+                </Link>
               </li>
             </ul>
           </FeaturedLinks>

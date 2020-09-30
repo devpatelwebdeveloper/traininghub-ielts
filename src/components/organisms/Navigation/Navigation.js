@@ -48,9 +48,9 @@ export default function Navi() {
       <StyledNav expand="lg" sticky="top">
         <BaseLink href="/" composedClassName="nav-link">
           <img
-            src="https://devashish-lms.s3.ca-central-1.amazonaws.com/logo_TrainingHub.png"
+            src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
             className="logo"
-            alt="React Bootstrap logo"
+            alt="TrainingHub.io IELTS"
           />
         </BaseLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
