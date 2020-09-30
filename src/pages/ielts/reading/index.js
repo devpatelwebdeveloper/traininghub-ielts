@@ -17,16 +17,16 @@ export default function reading() {
     href: "/ielts/reading",
     image:
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/svgIcons/listener.svg",
-    alt: "Listening",
+    alt: "Reading",
     description:
       "The reading passages are different for both Academic and General training candidates. Remember the format is the same but attempt is different and also the type and level of technical skills is different for both. The test has 40 questions based on a series of 3 passages. The test has to be completed in 60 minutes and no extra time will be given.",
 
     startDate: "",
     courseImage:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/reading/readingTop.jpeg",
     coursePage: {
       courseImage:
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ielts-toefl-yds.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmaxresdefault.jpg&f=1&nofb=1",
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/reading/readingTop.jpeg",
       courseIntroduction: (
         <>
           <Paragraph>
@@ -61,47 +61,10 @@ export default function reading() {
           </Paragraph>
         </>
       ),
-      courseIntroductionImage:
-        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ielts-toefl-yds.com%2Fwp-content%2Fuploads%2F2018%2F04%2Fmaxresdefault.jpg&f=1&nofb=1",
-
-      studentJourney: {
-        heading: "Listening",
-        paragraphContent: (
-          <>
-            <Paragraph>
-              <strong>SECTION 1:</strong> Here you will listen to a conversation
-              between 2 people. The conversation is divided into 2 parts. You
-              have to answer 10 questions based on what you hear. At the start
-              of section 1 you will have an example read out to you and then
-              explained. This is then repeated when the listening starts
-              properly.
-            </Paragraph>
-            <Paragraph>
-              <strong>SECTION 2:</strong> Here you will hear a monologue though
-              it may include a second speaker asking questions in order to
-              stimulate the monologue. The monologue is divided into 2 parts.
-              You have to answer 10 questions based on what you hear.
-            </Paragraph>
-            <Paragraph>
-              <strong>SECTION 3:</strong> Here you will listen to a conversation
-              between 2, 3 or 4 people. The conversation is divided into 2
-              parts. You have to answer 10 questions based on what you hear.
-            </Paragraph>
-            <Paragraph>
-              <strong>SECTION 4:</strong> Here you will hear a monologue though
-              it may include a second speaker asking questions in order to
-              stimulate the monologue. The monologue is divided into 2 parts.
-              You have to answer 10 questions based on what you hear.
-            </Paragraph>
-            <Paragraph>
-              The listening tape is only played once. So, it is recommended that
-              the examinee pays full attention to it. As there is no video
-              showed so even lip sync can’t help. Therefore, it must be known to
-              every candidate that conversation is to be properly listened.
-            </Paragraph>
-          </>
-        ),
-      },
+      academic:
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/reading/readingAcademic.jpeg",
+      general:
+        "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/reading/reading.jpg",
     },
   };
   return (
@@ -157,8 +120,8 @@ export default function reading() {
                 </ul>
               </>
             }
-            image={Course.coursePage.courseIntroductionImage}
-            alt={Course.title}
+            image={Course.coursePage.academic}
+            alt="Reading - Academic"
           />
         </Section>
 
@@ -208,9 +171,9 @@ export default function reading() {
                 </Paragraph>
               </>
             }
-            image={Course.coursePage.courseIntroductionImage}
-            alt={Course.title}
-            ImageLeft={true}
+            image={Course.coursePage.general}
+            alt="Reading - General"
+            imageLeft
           />
         </Section>
 
