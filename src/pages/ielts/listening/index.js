@@ -20,7 +20,7 @@ export default function listening() {
     alt: "Listening",
     description:
       "Listening consists of 4 sections mainly and there are ten questions in each section. Sections 1 and 2 are based on social survival in an English speaking country and sections 3 and 4 are based on a more educational and training orientation. The listening audio tape lasts for about 30 minutes and then you have 10 minutes at the end of the listening to transfer your answers to the answer sheet.",
-    topbannericon: listening,
+
     startDate: "",
     courseImage:
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/IELTS-Listening-Test.jpg",
