@@ -9,7 +9,7 @@ const StyledOl = styled.ol`
   margin-top: 20px;
   padding: 0;
   border-left: 3px solid ${Styles.Colors.BrandGrey};
-  counter-reset: numbered-list;
+  counter-reset: numbered-list 10;
   margin-left: 10px;
   position: relative;
 `;
@@ -27,7 +27,7 @@ export default class NumberedTimeLine extends React.Component {
     const { title, lists } = this.props;
     return (
       <>
-        <StyledOl>
+        <StyledOl start="0">
           {lists.map((list) => (
             <ListItem title={list.title} text={list.text} />
           ))}

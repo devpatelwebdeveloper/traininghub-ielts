@@ -16,11 +16,10 @@ const Li = styled.li`
   }
   &:before {
     background-color: ${Styles.Colors.DefaultFont};
-    border: 3px solid ${Styles.Colors.BaseLightBlue};
     border-radius: 50%;
     color: ${Styles.Colors.BaseLightBlue};
-    content: counter(numbered-list, decimal);
-    counter-increment: numbered-list;
+    counter-increment: numbered-list -1;
+    content: counter(numbered-list);
     display: block;
     font-weight: ${Styles.FontWeight.Bold};
     font-size: ${Styles.FontSize.Large};
