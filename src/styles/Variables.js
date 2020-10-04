@@ -6,7 +6,9 @@ const ScreenSizes = {
 };
 
 const Colors = {
+  // DefaultFont: "#ed1630",
   DefaultFont: "#19294f",
+  SiteFont: "#19294f",
   AccessibleBlue: "#167cba",
   BrandOrange: "#db3b00",
   BrandPurple: "#6970b4",

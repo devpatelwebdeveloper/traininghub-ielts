@@ -77,7 +77,10 @@ export default function Navi() {
                 );
               }
               return (
-                <BaseLink href={navItem.Link} composedClassName="nav-link">
+                <BaseLink
+                  href={navItem.Link}
+                  composedClassName="nav-link"
+                  external={navItem.external}>
                   {navItem.DisplayText}
                 </BaseLink>
               );

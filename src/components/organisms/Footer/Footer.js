@@ -7,6 +7,7 @@ import styled from "styled-components";
 import Styles from "../../../styles/Styles";
 import Paragraph from "../../atoms/Paragraph/Paragraph";
 import BaseTitle from "../../atoms/BaseTitle/BaseTitle";
+import BaseLink from "../../atoms/BaseLink/BaseLink";
 import { Courses } from "../../../contents/Courses";
 import { Icon } from "react-icons-kit";
 import { facebookSquare } from "react-icons-kit/fa/facebookSquare";
@@ -87,20 +88,24 @@ export default function Footer() {
             <BaseTitle title="Company" size="H5" />
             <ul>
               <li>
-                <Link to="https://www.traininghub.io/about-us">About us</Link>
+                <BaseLink external href="https://www.traininghub.io/about-us">
+                  About us
+                </BaseLink>
               </li>
               <li>
-                <Link to="https://www.traininghub.io/employers">Employers</Link>
+                <BaseLink external href="https://www.traininghub.io/employers">
+                  Employers
+                </BaseLink>
               </li>
               <li>
-                <Link to="https://www.traininghub.io/job-seeker">
+                <BaseLink external href="https://www.traininghub.io/job-seeker">
                   Job Seeker
-                </Link>
+                </BaseLink>
               </li>
               <li>
-                <Link to="https://www.traininghub.io/contact-us">
+                <BaseLink external href="https://www.traininghub.io/contact-us">
                   Contact us
-                </Link>
+                </BaseLink>
               </li>
             </ul>
           </FeaturedLinks>
@@ -108,16 +113,24 @@ export default function Footer() {
             <BaseTitle title="IELTS" size="H5" />
             <ul>
               <li>
-                <Link to="/ielts/listening">Listening</Link>
+                <BaseLink external href="/ielts/listening">
+                  Listening
+                </BaseLink>
               </li>
               <li>
-                <Link to="/ielts/speaking">Speaking</Link>
+                <BaseLink external href="/ielts/speaking">
+                  Speaking
+                </BaseLink>
               </li>
               <li>
-                <Link to="/ielts/writing">Writing</Link>
+                <BaseLink external href="/ielts/writing">
+                  Writing
+                </BaseLink>
               </li>
               <li>
-                <Link to="0/ielts/reading">Reading</Link>
+                <BaseLink external href="/ielts/reading">
+                  Reading
+                </BaseLink>
               </li>
             </ul>
           </FeaturedLinks>
@@ -134,7 +147,9 @@ export default function Footer() {
           </Col>
           <Col md={2}>
             <Paragraph>
-              <Link to="/privacy">Privacy</Link>
+              <BaseLink external href="https://www.traininghub.io/privacy">
+                Privacy
+              </BaseLink>
             </Paragraph>
           </Col>
           <Col md={2}>

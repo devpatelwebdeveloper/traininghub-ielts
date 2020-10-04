@@ -5,7 +5,7 @@ const HomePageCards = [
     alt: "IELTS for Education",
     title: "IELTS for Education",
     text:
-      "Our training programs are designed by industry experts with 10+ years of experience to suit the industry needs. The curriculum for each course is rigorously tested and updated by technical professionals. Engage with the relevant course and gear up your career.",
+      "The Academic type assesses a test taker’s readiness to study or train in the medium of English at an undergraduate or postgraduate level by testing the full range of formal language skills required for academic purposes. Admission to undergraduate and postgraduate programs and courses is based on the results of the Academic type. The Academic type is also suitable for professional registration.",
   },
   {
     image:
@@ -13,7 +13,7 @@ const HomePageCards = [
     alt: "IELTS for Work",
     title: "IELTS for Work",
     text:
-      "Learning new things is amazing, Is there a better way to learn?. Yes, we understand thec hallenges faced by you and we have come up with a 3-way solution - Classroom Training, Online Training & Corporate Training at your convenience.",
+      "The General Training type emphasizes basic language survival skills in a broad social and educational context. General Training is suitable for test takers who are going to English speaking countries to complete their secondary education, undertake work experience or training programs, or to qualify for immigration to Australia, Canada, New Zealand, and the United States.",
   },
   {
     image:
