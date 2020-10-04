@@ -51,11 +51,20 @@ export default function Navi() {
           composedClassName="nav-link"
           external>
           <img
-            src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
+            // src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
+            src="https://devashish-lms.s3.ca-central-1.amazonaws.com/logo_TrainingHub.png"
             className="logo"
             alt="TrainingHub.io IELTS"
           />
         </BaseLink>
+        {/* <BaseLink href="/" composedClassName="nav-link">
+          <img
+            // src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
+            src="https://www.ielts.org/assets/img/mainLogo.png"
+            className="logo"
+            alt="TrainingHub.io IELTS"
+          />
+        </BaseLink> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>
