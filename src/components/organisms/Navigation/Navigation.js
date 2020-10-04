@@ -46,7 +46,10 @@ export default function Navi() {
   return (
     <>
       <StyledNav expand="lg" sticky="top">
-        <BaseLink href="/" composedClassName="nav-link">
+        <BaseLink
+          href="https://www.traininghub.io/"
+          composedClassName="nav-link"
+          external>
           <img
             src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
             className="logo"
