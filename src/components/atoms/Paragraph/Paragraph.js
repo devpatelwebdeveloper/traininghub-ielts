@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Styles from "../../../styles/Styles";
 
 const StyledParagraph = styled.p`
-  color: ${Styles.Colors.DefaultFont};
+  color: ${Styles.Colors.SiteFont};
   font-size: ${Styles.FontSize.Medium};
   font-weight: ${Styles.FontWeight.Normal};
   line-height: ${Styles.LineHeight.Medium};

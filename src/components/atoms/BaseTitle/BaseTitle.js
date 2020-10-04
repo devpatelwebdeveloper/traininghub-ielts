@@ -5,7 +5,7 @@ import Styles from "../../../styles/Styles";
 import { Colors } from "../../../styles/Variables";
 
 const H1 = styled.h1`
-  color: ${Styles.Colors.DefaultFont};
+  color: ${Styles.Colors.SiteFont};
   font-size: ${Styles.HeadingSize.H1};
   font-weight: ${Styles.FontWeight.Bold};
   line-height: ${Styles.HeadingHeight.H1};
@@ -17,7 +17,7 @@ const H1 = styled.h1`
    `};
 `;
 const H2 = styled.h2`
-  color: ${Styles.Colors.DefaultFont};
+  color: ${Styles.Colors.SiteFont};
   font-size: ${Styles.HeadingSize.H2};
   font-weight: ${Styles.FontWeight.Bold};
   line-height: ${Styles.HeadingHeight.H2};
@@ -29,7 +29,7 @@ const H2 = styled.h2`
    `};
 `;
 const H3 = styled.h3`
-  color: ${Styles.Colors.DefaultFont};
+  color: ${Styles.Colors.SiteFont};
   font-size: ${Styles.HeadingSize.H3};
   font-weight: ${Styles.FontWeight.Bold};
   line-height: ${Styles.HeadingHeight.H3};
@@ -41,7 +41,7 @@ const H3 = styled.h3`
    `};
 `;
 const H4 = styled.h4`
-  color: ${Styles.Colors.DefaultFont};
+  color: ${Styles.Colors.SiteFont};
   font-size: ${Styles.HeadingSize.H4};
   font-weight: ${Styles.FontWeight.Bold};
   line-height: ${Styles.HeadingHeight.H4};
@@ -53,7 +53,7 @@ const H4 = styled.h4`
    `};
 `;
 const H5 = styled.h5`
-  color: ${Styles.Colors.DefaultFont};
+  color: ${Styles.Colors.SiteFont};
   font-size: ${Styles.HeadingSize.H5};
   font-weight: ${Styles.FontWeight.Bold};
   line-height: ${Styles.HeadingHeight.H5};
@@ -65,7 +65,7 @@ const H5 = styled.h5`
    `};
 `;
 const H6 = styled.h6`
-  color: ${Styles.Colors.DefaultFont};
+  color: ${Styles.Colors.SiteFont};
   font-size: ${Styles.HeadingSize.H6};
   font-weight: ${Styles.FontWeight.Bold};
   line-height: ${Styles.HeadingHeight.H6};

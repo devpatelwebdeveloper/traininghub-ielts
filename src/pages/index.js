@@ -14,6 +14,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Tiles from "../components/blocks/Tiles/Tiles";
 import { HomePageCards } from "../contents/HomePageCards";
+import { HomePageSliders } from "../contents/HomePageSliders";
+import Slider from "../components/organisms/Slider/Slider";
 
 export default function Courses() {
   // const contentCols = [
@@ -372,21 +374,22 @@ export default function Courses() {
     <>
       <Head title="IELTS" />
       <Layout>
-        <TopBannerCourse
+        <Slider HomePageSlides={HomePageSliders} />
+        {/* <TopBannerCourse
           courseTitle="IELTS"
           text="The International English Language Testing System (IELTS) is the world’s most recognized and proven English test. Millions of candidates take IELTS each year to start their journey into international education, employment, and for Canadian immigration."
           background={Background}
-        />
+        /> */}
         {/* <TextRow
           contentCols={contentCols}
           title="Course Offerings"
           columns="3"
           shadow
         /> */}
-        <Tiles
+        {/* <Tiles
           title="IELTS Target 8777? Together WE CAN!"
           tiles={HomePageCards}
-        />
+        /> */}
         <TextRow
           contentCols={courseContents}
           title="Course Contents & Learning Outcomes"

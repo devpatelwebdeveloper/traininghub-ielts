@@ -12,7 +12,7 @@ import SchoolBoard from "../../../contents/icons/SchoolBoard.svg";
 
 const StyledSection = styled.section`
   min-height: 50vh;
-  background-color: #101d42;
+  background-color: #8c0212;
   color: ${Styles.Colors.BaseWhite};
   background-image: url(${(props) => props.background || SchoolBoard});
   background-repeat: no-repeat;
