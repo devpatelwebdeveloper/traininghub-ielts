@@ -1,47 +1,30 @@
 const HomePageSliders = [
   {
-    title: "Jump Start into IT Career",
+    title: "IELTS for Education",
     background:
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/server_TrainingHub.jpg",
     image:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/JumpStartCareer_TrainingHub.jpg",
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/ieltsHomePage/ieltsForStudents.jpeg",
     description:
-      "People think IT is a field for programmers and tech supporters. No, there is a role for everyone in IT. So, want to start your career in IT?, Enroll with us for expert advice and gear-up for relevant training. Apart from skills that have a direct impact on your current profile, learn skills that make an immediate valuable impact. The amount of upskilling is useless unless youre inforce and apply the learning at your workplace. Why wait drop your inquiry for us.",
-    buttonText: "Explore Courses",
-    buttonLink: "/courses/",
+      "The Academic type assesses a test taker’s readiness to study or train in the medium of English at an undergraduate or postgraduate level by testing the full range of formal language skills required for academic purposes. Admission to undergraduate and postgraduate programs and courses is based on the results of the Academic type. The Academic type is also suitable for professional registration.",
   },
   {
-    title: "Sql Server Developer",
+    title: "IELTS for Work",
     background:
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/server_TrainingHub.jpg",
     image:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/sqlDeveloper_TrainingHub.jpg",
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/ieltsHomePage/ieltsForWork.jpg",
     description:
-      "SQL Server Database Training will up-skill you in database development & Administration and concepts like query design, clustering, architecture, and performance tuning with real-time scenarios. (You will gain knowledge in Microsoft SQL Server Database.)",
-    buttonText: "Learn more",
-    buttonLink: "/courses/microsofttechnologies/sqlserverdevelopment",
+      "The General Training type emphasizes basic language survival skills in a broad social and educational context. General Training is suitable for test takers who are going to English speaking countries to complete their secondary education, undertake work experience or training programs, or to qualify for immigration to Australia, Canada, New Zealand, and the United States.",
   },
   {
-    title: "Quality Engineering",
+    title: "IELTS for Migration",
     background:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/QualityEngineering_Wallpaper_TrainingHub.jpg",
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/server_TrainingHub.jpg",
     image:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/QualityEngineering_TrainingHub.jpg",
+      "https://images.unsplash.com/photo-1498940585432-8adcc4d43a19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80",
     description:
-      "Want to develop career in IT but development is hard? Quality Engineering is the field you want to take a deep dive into.",
-    buttonText: "Learn more",
-    buttonLink: "/courses",
-  },
-  {
-    title: "MERN Stack",
-    background:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/webdeveloper_Wallpaper_TrainingHub.jpg",
-    image:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/WebDeveloper_Traininghub.jpg",
-    description:
-      "MERN (MongoDB, Express JS, React JS, and Node JS)stack is very popular. Learn how to use individual   building   blocks   to   combine   into   an   application   and   build   advanced   web-based applications. Learn how to file upload, authorization, authentication, and deploy the application into different hosting services.",
-    buttonText: "Learn more",
-    buttonLink: "/courses",
+      "IELTS is accepted as proof of English language proﬁciency for study, work, and migration in Australia, Canada, New Zealand, and the UK, just as for study and work in the USA. Every nation sets its own IELTS prerequisites. For exceptional data, please visit the applicable government sites.",
   },
 ];
 

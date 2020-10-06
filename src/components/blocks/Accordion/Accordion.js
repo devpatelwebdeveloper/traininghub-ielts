@@ -17,15 +17,15 @@ const AccordionList = styled.ul`
       rgba(darken(${Styles.Colors.BaseLightBlue}, 20%), 0.06),
     0 20px 30px -10px rgba(darken(${Styles.Colors.BaseLightBlue}, 20%), 0.2);
 
-  @media print {
-    display: none;
-  }
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  // @media print {
+  //   display: none;
+  // }
+  // -webkit-touch-callout: none;
+  // -webkit-user-select: none;
+  // -khtml-user-select: none;
+  // -moz-user-select: none;
+  // -ms-user-select: none;
+  // user-select: none;
 `;
 const AccordionSingleList = styled.li`
   border-top: 1px solid ${Styles.Colors.BaseBorderGrey};
