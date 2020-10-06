@@ -7,6 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import NavigationInternal from "./NavigationDropdown";
 import { TopNavigation } from "../../../contents/Navigation/Navigation";
+import { graphql, useStaticQuery } from "gatsby";
 
 const StyledNav = styled(Navbar)`
   background-color: ${Styles.Colors.BaseWhite};
@@ -43,6 +44,19 @@ const StyledNavDropdown = styled(NavDropdown)`
 `;
 
 export default function Navi() {
+  const resources = useStaticQuery(graphql`
+    query {
+      allContentfulResources {
+        edges {
+          node {
+            slug
+            title
+          }
+        }
+      }
+    }
+  `);
+
   return (
     <>
       <StyledNav expand="lg" sticky="top">
@@ -97,6 +111,27 @@ export default function Navi() {
                 </BaseLink>
               );
             })}
+            <StyledNavDropdown title="Resources">
+              {resources.allContentfulResources.edges.map((resource) => {
+                return (
+                  <>
+                    <NavDropdown.Item>
+                      <BaseLink
+                        href={`/resources/${resource.node.slug}`}
+                        composedClassName="nav-link">
+                        {resource.node.title}
+                      </BaseLink>
+                    </NavDropdown.Item>
+                  </>
+                );
+              })}
+            </StyledNavDropdown>
+            <BaseLink
+              href="https://www.traininghub.io/"
+              composedClassName="nav-link"
+              external>
+              Back to Home
+            </BaseLink>
           </Nav>
         </Navbar.Collapse>
       </StyledNav>

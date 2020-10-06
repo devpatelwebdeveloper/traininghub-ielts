@@ -1,9 +1,9 @@
 const TopNavigation = [
   {
-    DisplayText: "IELTS",
+    DisplayText: "Course",
     Link: "/",
     Dropdown: false,
-    DescTitle: "IELTS",
+    DescTitle: "Course",
     Description: "",
   },
   {
@@ -49,15 +49,6 @@ const TopNavigation = [
     DescTitle: "Frequently Asked Questions",
     Description: "",
     Dropdown: false,
-  },
-
-  {
-    DisplayText: "Back to Home",
-    Link: "https://www.traininghub.io/",
-    DescTitle: "Traininghub.io",
-    Description: "",
-    Dropdown: false,
-    external: true,
   },
 ];
 
