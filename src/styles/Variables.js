@@ -18,7 +18,7 @@ const Colors = {
   BrandGrey: "#545555",
   BaseIcon: "#a8aab7",
   BaseBlueGrey: "#c5d0de",
-  BaseLightBlue: "#f1f4f8",
+  BaseLightBlue: "#f7f2f2",
   BaseElement: "#f4f6f9",
   BaseBorderYellow: "#e5c72b",
   BaseBorderGrey: "#dbdcdf",

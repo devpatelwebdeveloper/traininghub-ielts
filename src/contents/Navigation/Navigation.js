@@ -44,6 +44,14 @@ const TopNavigation = [
     ],
   },
   {
+    DisplayText: "FAQs",
+    Link: "/faqs",
+    DescTitle: "Frequently Asked Questions",
+    Description: "",
+    Dropdown: false,
+  },
+
+  {
     DisplayText: "Back to Home",
     Link: "https://www.traininghub.io/",
     DescTitle: "Traininghub.io",

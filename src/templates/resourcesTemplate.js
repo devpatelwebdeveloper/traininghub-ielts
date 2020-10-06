@@ -14,7 +14,7 @@ import { BLOCKS, MARKS } from "@contentful/rich-text-types";
 
 export const query = graphql`
   query($slug: String!) {
-    contentfulBlogs(slug: { eq: $slug }) {
+    contentfulResources(slug: { eq: $slug }) {
       title
 
       content {
@@ -25,7 +25,7 @@ export const query = graphql`
 `;
 
 export default function BlogTemplate(props) {
-  const BlogContent = props.data.contentfulBlogs;
+  const BlogContent = props.data.contentfulResources;
 
   const BlogParagraph = ({ children }) => <Paragraph>{children}</Paragraph>;
   const BlogTitle = ({ children, size }) => (
