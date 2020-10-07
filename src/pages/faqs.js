@@ -12,7 +12,9 @@ import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
 export default function Courses() {
   const faqQuery = useStaticQuery(graphql`
     query {
-      allContentfulFrequentlyAskedQuestions {
+      allContentfulFrequentlyAskedQuestions(
+        sort: { fields: [order], order: ASC }
+      ) {
         edges {
           node {
             question

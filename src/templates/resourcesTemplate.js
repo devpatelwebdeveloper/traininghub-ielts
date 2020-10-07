@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TopBannerCourse from "../components/organisms/TopBannerCourse/TopBannerCourse";
 import BaseTitle from "../components/atoms/BaseTitle/BaseTitle";
+import BaseTile from "../components/atoms/BaseTile/BaseTile";
 import Paragraph from "../components/atoms/Paragraph/Paragraph";
 import Background from "../contents/icons/recruitment.svg";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
@@ -52,6 +53,21 @@ export default function BlogTemplate(props) {
       [BLOCKS.HEADING_6]: (node, children) => (
         <BlogTitle size="H6">{children}</BlogTitle>
       ),
+      "embedded-asset-block": (node) => {
+        const alt = node.data.target.fields.title["en-US"];
+        const url = node.data.target.fields.file["en-US"].url;
+        return (
+          <img
+            alt={alt}
+            src={url}
+            style={{
+              maxWidth: "100%",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          />
+        );
+      },
     },
     // renderMark: {
     //   [MARKS.BOLD]: text => {

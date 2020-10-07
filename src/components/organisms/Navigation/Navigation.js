@@ -46,7 +46,7 @@ const StyledNavDropdown = styled(NavDropdown)`
 export default function Navi() {
   const resources = useStaticQuery(graphql`
     query {
-      allContentfulResources {
+      allContentfulResources(sort: { fields: [order], order: ASC }) {
         edges {
           node {
             slug
@@ -65,8 +65,8 @@ export default function Navi() {
           composedClassName="nav-link"
           external>
           <img
-            // src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
-            src="https://devashish-lms.s3.ca-central-1.amazonaws.com/logo_TrainingHub.png"
+            src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
+            // src="https://devashish-lms.s3.ca-central-1.amazonaws.com/logo_TrainingHub.png"
             className="logo"
             alt="TrainingHub.io IELTS"
           />
@@ -126,6 +126,9 @@ export default function Navi() {
                 );
               })}
             </StyledNavDropdown>
+            <BaseLink href="/faqs" composedClassName="nav-link">
+              FAQs
+            </BaseLink>
             <BaseLink
               href="https://www.traininghub.io/"
               composedClassName="nav-link"

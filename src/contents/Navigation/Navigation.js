@@ -43,13 +43,6 @@ const TopNavigation = [
       },
     ],
   },
-  {
-    DisplayText: "FAQs",
-    Link: "/faqs",
-    DescTitle: "Frequently Asked Questions",
-    Description: "",
-    Dropdown: false,
-  },
 ];
 
 export { TopNavigation };

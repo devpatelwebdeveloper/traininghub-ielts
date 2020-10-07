@@ -31,7 +31,7 @@ const FooterStyle = styled.footer`
     font-size: ${Styles.FontSize.Small};
   }
   a {
-    color: ${Styles.Colors.DefaultFont};
+    color: ${Styles.Colors.SiteFont};
     font-size: ${Styles.FontSize.Small};
     &:hover {
       color: ${Styles.Colors.BrandOrange};
