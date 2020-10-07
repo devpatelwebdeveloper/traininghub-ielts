@@ -2,7 +2,7 @@ const HomePageSliders = [
   {
     title: "IELTS for Education",
     background:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/server_TrainingHub.jpg",
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/ielts_banner.jpg",
     image:
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/ieltsHomePage/ieltsForStudents.jpeg",
     description:
@@ -11,7 +11,7 @@ const HomePageSliders = [
   {
     title: "IELTS for Work",
     background:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/server_TrainingHub.jpg",
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/ielts_banner.jpg",
     image:
       "https://devashish-lms.s3.ca-central-1.amazonaws.com/ieltsHomePage/ieltsForWork.jpg",
     description:
@@ -20,7 +20,7 @@ const HomePageSliders = [
   {
     title: "IELTS for Migration",
     background:
-      "https://devashish-lms.s3.ca-central-1.amazonaws.com/server_TrainingHub.jpg",
+      "https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/ielts_banner.jpg",
     image:
       "https://images.unsplash.com/photo-1498940585432-8adcc4d43a19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80",
     description:
