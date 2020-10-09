@@ -9,6 +9,7 @@ import BaseTitle from "../components/atoms/BaseTitle/BaseTitle";
 import BaseTile from "../components/atoms/BaseTile/BaseTile";
 import Paragraph from "../components/atoms/Paragraph/Paragraph";
 import Background from "../contents/icons/recruitment.svg";
+import NumberedTimeLine from "../components/blocks/NumeredTimeLine/NumeredTimeLine";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { graphql, useStaticQuery } from "gatsby";
 import { BLOCKS, MARKS } from "@contentful/rich-text-types";
@@ -25,33 +26,95 @@ export const query = graphql`
   }
 `;
 
-export default function BlogTemplate(props) {
-  const BlogContent = props.data.contentfulResources;
+const scoringSystem = [
+  {
+    value: "9",
+    title: "Expert user",
+    text:
+      "The test taker has fully operational command of the language. Their use of English is appropriate, accurate and fluent, and shows complete understanding.",
+  },
+  {
+    value: "8",
+    title: "Very good user",
+    text:
+      "The test taker has fully operational command of the language with only occasional unsystematic inaccuracies and inappropriate usage. They may misunderstand some things in unfamiliar situations. They handle complex and detailed argumentation well.",
+  },
+  {
+    value: "7",
+    title: "Good user",
+    text:
+      "The test taker has operational command of the language, though with occasional inaccuracies, inappropriate usage and misunderstandings in some situations. They generally handle complex language well and understand detailed reasoning.",
+  },
+  {
+    value: "6",
+    title: "Competent user",
+    text:
+      "The test taker has an effective command of the language despite some inaccuracies, inappropriate usage and misunderstandings. They can use and understand fairly complex language, particularly in familiar situations.",
+  },
+  {
+    value: "5",
+    title: "Modest user",
+    text:
+      "The test taker has a partial command of the language and copes with overall meaning in most situations, although they are likely to make many mistakes. They should be able to handle basic communication in their own field.",
+  },
+  {
+    value: "4",
+    title: "Limited user",
+    text:
+      "The test taker's basic competence is limited to familiar situations. They frequently show problems in understanding and expression. They are not able to use complex language.",
+  },
+  {
+    value: "3",
+    title: "Extremely limited user",
+    text:
+      "The test taker conveys and understands only general meaning in very familiar situations. There are frequent breakdowns in communication.",
+  },
+  {
+    value: "2",
+    title: "Intermittent user",
+    text:
+      "The test taker has great difficulty understanding spoken and written English.",
+  },
+  {
+    value: "1",
+    title: "Non-user",
+    text:
+      "The test taker has no ability to use the language except a few isolated words.",
+  },
+  {
+    value: "0",
+    title: "Did not attempt the test",
+    text: "The test taker did not answer the questions.",
+  },
+];
 
-  const BlogParagraph = ({ children }) => <Paragraph>{children}</Paragraph>;
-  const BlogTitle = ({ children, size }) => (
+export default function ResourceTemplate(props) {
+  const ResourceContent = props.data.contentfulResources;
+
+  const ResourceParagraph = ({ children }) => <Paragraph>{children}</Paragraph>;
+  const ResourceTitle = ({ children, size }) => (
     <BaseTitle title={children} size={size} />
   );
 
-  const BlogOptions = {
+  const ResourceOptions = {
     renderNode: {
       [BLOCKS.PARAGRAPH]: (node, children) => (
-        <BlogParagraph>{children}</BlogParagraph>
+        <ResourceParagraph>{children}</ResourceParagraph>
       ),
       [BLOCKS.HEADING_2]: (node, children) => (
-        <BlogTitle size="H2">{children}</BlogTitle>
+        <ResourceTitle size="H2">{children}</ResourceTitle>
       ),
       [BLOCKS.HEADING_3]: (node, children) => (
-        <BlogTitle size="H3">{children}</BlogTitle>
+        <ResourceTitle size="H3">{children}</ResourceTitle>
       ),
       [BLOCKS.HEADING_4]: (node, children) => (
-        <BlogTitle size="H4">{children}</BlogTitle>
+        <ResourceTitle size="H4">{children}</ResourceTitle>
       ),
       [BLOCKS.HEADING_5]: (node, children) => (
-        <BlogTitle size="H5">{children}</BlogTitle>
+        <ResourceTitle size="H5">{children}</ResourceTitle>
       ),
       [BLOCKS.HEADING_6]: (node, children) => (
-        <BlogTitle size="H6">{children}</BlogTitle>
+        <ResourceTitle size="H6">{children}</ResourceTitle>
       ),
       "embedded-asset-block": (node) => {
         const alt = node.data.target.fields.title["en-US"];
@@ -75,28 +138,32 @@ export default function BlogTemplate(props) {
     //   },
     // },
   };
-
+  console.log(props.pageContext.slug);
+  const score =
+    props.pageContext.slug === "ielts-scoring-system" ? (
+      <NumberedTimeLine
+        lists={scoringSystem}
+        title="Scoring System"
+        start="0"
+      />
+    ) : null;
   return (
     <>
-      <Head title={BlogContent.title} />
+      <Head title={ResourceContent.title} />
       <Layout>
         <TopBannerCourse
-          courseTitle={BlogContent.title}
+          courseTitle={ResourceContent.title}
           text=""
           background={Background}
         />
         <Section marginTop="50px" marginBottom="25px">
           <Row>
             <Col md={12}>
-              {documentToReactComponents(BlogContent.content.json, BlogOptions)}
-              {/* {content.map((cont) => {
-                return (
-                  <>
-                    <BaseTitle title={cont.title} size="H3" />
-                    <Paragraph>{cont.paragraph}</Paragraph>
-                  </>
-                );
-              })} */}
+              {documentToReactComponents(
+                ResourceContent.content.json,
+                ResourceOptions,
+              )}
+              {score}
             </Col>
           </Row>
         </Section>
