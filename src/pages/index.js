@@ -142,7 +142,7 @@ export default function Courses() {
       <Head title="IELTS" />
       <Layout>
         <Slider HomePageSlides={HomePageSliders} />
-        <Section marginTop="50px" marginBottom="25px">
+        {/* <Section marginTop="50px" marginBottom="25px">
           <ContentGenericAligned
             textJustified
             imageLeft
@@ -151,7 +151,7 @@ export default function Courses() {
             image="https://images.unsplash.com/photo-1597570889212-97f48e632dad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2555&q=80"
             alt="About Instructor"
           />
-        </Section>
+        </Section> */}
 
         {/* <TextRow
           contentCols={contentCols}
