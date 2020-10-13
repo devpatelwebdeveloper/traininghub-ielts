@@ -113,24 +113,16 @@ export default function Footer() {
             <BaseTitle title="IELTS" size="H5" />
             <ul>
               <li>
-                <BaseLink external href="/ielts/listening">
-                  Listening
-                </BaseLink>
+                <BaseLink href="/ielts/listening">Listening</BaseLink>
               </li>
               <li>
-                <BaseLink external href="/ielts/speaking">
-                  Speaking
-                </BaseLink>
+                <BaseLink href="/ielts/speaking">Speaking</BaseLink>
               </li>
               <li>
-                <BaseLink external href="/ielts/writing">
-                  Writing
-                </BaseLink>
+                <BaseLink href="/ielts/writing">Writing</BaseLink>
               </li>
               <li>
-                <BaseLink external href="/ielts/reading">
-                  Reading
-                </BaseLink>
+                <BaseLink href="/ielts/reading">Reading</BaseLink>
               </li>
             </ul>
           </FeaturedLinks>
