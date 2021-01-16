@@ -79,9 +79,9 @@ export default function Footer() {
               alt="TrainingHub.io"
             />
             <Paragraph>
-              TrainingHub thrives helping great minds to upgrade / change their
-              career in field of IT. We empower our students to succeed in this
-              digital age.
+              Language Academy thrives helping great minds to gain confidence in
+              their career. We empower our students to succeed in this
+              competitive age.
             </Paragraph>
           </AddressCol>
           <FeaturedLinks md={2} sm={6}>
@@ -132,9 +132,9 @@ export default function Footer() {
         <Row>
           <Col md={8}>
             <Paragraph>
-              {`All Content © TrainingHub.io ${new Date().getFullYear()}. 'TrainingHub.io',
-              TrainingHub.io logo and 'We Deliver What We Promise' are
-              trademarks of TrainingHub.io All Rights Reserved.`}
+              {`All Content © Learning Academy ${new Date().getFullYear()}. 'Languageacademy.ca',
+              Languageacademy.ca logo and 'We Deliver What We Promise' are
+              trademarks of Languageacademy.ca All Rights Reserved.`}
             </Paragraph>
           </Col>
           <Col md={2}>

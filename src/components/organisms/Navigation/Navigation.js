@@ -18,7 +18,7 @@ const StyledNav = styled(Navbar)`
     height: 40px;
   }
   .navbar-nav {
-    align-items: center;
+    align-items: flex-end;
   }
   ${Styles.ScreenSizes.small`
    
@@ -38,6 +38,11 @@ const StyledNavDropdown = styled(NavDropdown)`
     ${Styles.ScreenSizes.small`
     box-shadow: none;
   `}
+    &.show {
+      --bs-position: end;
+      right: 0;
+      left: auto;
+    }
   }
   dropdown-item {
     padding-bottom: 8px;
@@ -64,10 +69,7 @@ export default function Navi() {
   return (
     <>
       <StyledNav expand="lg" sticky="top">
-        <BaseLink
-          href="https://www.traininghub.io/"
-          composedClassName="nav-link"
-          external>
+        <BaseLink href="/" composedClassName="nav-link">
           <img
             src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
             // src="https://devashish-lms.s3.ca-central-1.amazonaws.com/logo_TrainingHub.png"
@@ -133,12 +135,6 @@ export default function Navi() {
             <BaseLink href="/faqs" composedClassName="nav-link">
               FAQs
             </BaseLink>
-
-            <Button
-              link="https://www.traininghub.io/"
-              text="Learning IT"
-              external={true}
-            />
           </Nav>
         </Navbar.Collapse>
       </StyledNav>

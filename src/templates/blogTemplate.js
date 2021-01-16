@@ -16,7 +16,6 @@ export const query = graphql`
   query($slug: String!) {
     contentfulBlogs(slug: { eq: $slug }) {
       title
-
       content {
         json
       }
@@ -53,11 +52,6 @@ export default function BlogTemplate(props) {
         <BlogTitle size="H6">{children}</BlogTitle>
       ),
     },
-    // renderMark: {
-    //   [MARKS.BOLD]: text => {
-    //     return <span className="HeadingHighlight">{text}</span>
-    //   },
-    // },
   };
 
   return (
@@ -73,14 +67,6 @@ export default function BlogTemplate(props) {
           <Row>
             <Col md={12}>
               {documentToReactComponents(BlogContent.content.json, BlogOptions)}
-              {/* {content.map((cont) => {
-                return (
-                  <>
-                    <BaseTitle title={cont.title} size="H3" />
-                    <Paragraph>{cont.paragraph}</Paragraph>
-                  </>
-                );
-              })} */}
             </Col>
           </Row>
         </Section>

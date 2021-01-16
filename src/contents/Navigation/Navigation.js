@@ -1,11 +1,11 @@
 const TopNavigation = [
-  {
-    DisplayText: "Course",
-    Link: "/",
-    Dropdown: false,
-    DescTitle: "Course",
-    Description: "",
-  },
+  // {
+  //   DisplayText: "Course",
+  //   Link: "/",
+  //   Dropdown: false,
+  //   DescTitle: "Course",
+  //   Description: "",
+  // },
   {
     DisplayText: "Modules",
     Link: "#",

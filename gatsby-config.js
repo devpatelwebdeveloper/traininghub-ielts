@@ -34,8 +34,8 @@ plugins.push(
 module.exports = {
   plugins: plugins,
   siteMetadata: {
-    title: "TrainingHub.io",
+    title: "Language Academy",
     author: "Dev",
-    siteUrl: "https://www.traininghub.io",
+    siteUrl: "https://www.languageacademy.ca",
   },
 };
