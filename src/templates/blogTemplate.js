@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Head from "../components/organisms/Head/Head";
 import Layout from "../components/templates/Layout/Layout";
 import Section from "../components/organisms/Section/Section";
@@ -24,6 +24,8 @@ export const query = graphql`
 `;
 
 export default function BlogTemplate(props) {
+  const [top, setTop] = useState(0);
+
   const BlogContent = props.data.contentfulBlogs;
 
   const BlogParagraph = ({ children }) => <Paragraph>{children}</Paragraph>;

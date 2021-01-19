@@ -9,13 +9,15 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import NavigationInternal from "./NavigationDropdown";
 import { TopNavigation } from "../../../contents/Navigation/Navigation";
 import { graphql, useStaticQuery } from "gatsby";
+import Logo from "../../../images/Logo.png";
+import browser from "../../../utilities/window";
 
 const StyledNav = styled(Navbar)`
   background-color: ${Styles.Colors.BaseWhite};
   align-items: center;
   box-shadow: 0 1px 0 rgba(12, 13, 14, 0.1), 0 1px 6px rgba(59, 64, 69, 0.1);
   .logo {
-    height: 40px;
+    height: 100px;
   }
   .navbar-nav {
     align-items: flex-end;
@@ -23,7 +25,7 @@ const StyledNav = styled(Navbar)`
   ${Styles.ScreenSizes.small`
    
     .logo{
-        width:200px;
+        width:50px;
         height:auto;
     }
   `}
@@ -37,6 +39,7 @@ const StyledNavDropdown = styled(NavDropdown)`
     box-shadow: 0 1px 0 rgba(12, 13, 14, 0.1), 0 1px 6px rgba(59, 64, 69, 0.1);
     ${Styles.ScreenSizes.small`
     box-shadow: none;
+    
   `}
     &.show {
       --bs-position: end;
@@ -44,14 +47,14 @@ const StyledNavDropdown = styled(NavDropdown)`
       left: auto;
     }
   }
-  dropdown-item {
+  .dropdown-item {
     padding-bottom: 8px;
+    text-align: end;
   }
   .row {
     margin: 0px !important;
   }
 `;
-
 export default function Navi() {
   const resources = useStaticQuery(graphql`
     query {
@@ -70,21 +73,8 @@ export default function Navi() {
     <>
       <StyledNav expand="lg" sticky="top">
         <BaseLink href="/" composedClassName="nav-link">
-          <img
-            src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
-            // src="https://devashish-lms.s3.ca-central-1.amazonaws.com/logo_TrainingHub.png"
-            className="logo"
-            alt="TrainingHub.io IELTS"
-          />
+          <img src={Logo} className="logo" alt="TrainingHub.io IELTS" />
         </BaseLink>
-        {/* <BaseLink href="/" composedClassName="nav-link">
-          <img
-            // src="https://devashish-lms.s3.ca-central-1.amazonaws.com/Ielts/logo_TrainingHubIELTS.png"
-            src="https://www.ielts.org/assets/img/mainLogo.png"
-            className="logo"
-            alt="TrainingHub.io IELTS"
-          />
-        </BaseLink> */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav>

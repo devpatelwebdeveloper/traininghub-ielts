@@ -13,6 +13,7 @@ import { Icon } from "react-icons-kit";
 import { facebookSquare } from "react-icons-kit/fa/facebookSquare";
 import { twitterSquare } from "react-icons-kit/fa/twitterSquare";
 import { linkedinSquare } from "react-icons-kit/fa/linkedinSquare";
+import Logo from "../../../images/Logo.png";
 
 const FooterStyle = styled.footer`
   background: ${Styles.Colors.BaseLightBlue};
@@ -52,7 +53,7 @@ const AddressCol = styled(Col)`
 `;
 
 const FooterLogo = styled.img`
-  max-width: 200px;
+  max-width: 100px;
 `;
 
 const FeaturedLinks = styled(Col)`
@@ -74,10 +75,7 @@ export default function Footer() {
       <FooterMain>
         <Row>
           <AddressCol md={4} sm={6}>
-            <FooterLogo
-              src="https://devashish-lms.s3.ca-central-1.amazonaws.com/logo_TrainingHub.png"
-              alt="TrainingHub.io"
-            />
+            <FooterLogo src={Logo} alt="TrainingHub.io" />
             <Paragraph>
               Language Academy thrives helping great minds to gain confidence in
               their career. We empower our students to succeed in this
