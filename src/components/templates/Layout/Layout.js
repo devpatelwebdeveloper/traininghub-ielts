@@ -1,5 +1,4 @@
 import React from "react";
-import useSticky from "../../../hooks/useSticky.js";
 import styled, { css } from "styled-components";
 import Navigation from "../../organisms/Navigation/Navigation";
 import Footer from "../../organisms/Footer/Footer";
@@ -18,10 +17,9 @@ import ScrollToTop from "../../atoms/ScrollToTop/ScrollToTop";
 // `;
 
 const Layout = (props) => {
-  const { isSticky } = useSticky();
   return (
     <>
-      <Navigation sticky={isSticky} />
+      <Navigation />
       {props.children}
       <ScrollToTop />
       <Footer />
