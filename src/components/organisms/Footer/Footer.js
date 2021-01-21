@@ -74,7 +74,7 @@ export default function Footer() {
     <FooterStyle>
       <FooterMain>
         <Row>
-          <AddressCol md={4} sm={6}>
+          <AddressCol md={10} sm={6}>
             <FooterLogo src={Logo} alt="TrainingHub.io" />
             <Paragraph>
               Language Academy thrives helping great minds to gain confidence in
@@ -82,7 +82,7 @@ export default function Footer() {
               competitive age.
             </Paragraph>
           </AddressCol>
-          <FeaturedLinks md={2} sm={6}>
+          {/* <FeaturedLinks md={2} sm={6}>
             <BaseTitle title="Company" size="H5" />
             <ul>
               <li>
@@ -106,7 +106,7 @@ export default function Footer() {
                 </BaseLink>
               </li>
             </ul>
-          </FeaturedLinks>
+          </FeaturedLinks> */}
           <FeaturedLinks md={2} sm={6}>
             <BaseTitle title="IELTS" size="H5" />
             <ul>
@@ -149,7 +149,7 @@ export default function Footer() {
               rel="noopener noreferrer">
               <Icon size={32} icon={facebookSquare} />
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/TrainingHubCan"
               target="_blank"
               rel="noopener noreferrer">
@@ -160,7 +160,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer">
               <Icon size={32} icon={linkedinSquare} />
-            </a>
+            </a> */}
           </Col>
         </Row>
       </FooterLegal>

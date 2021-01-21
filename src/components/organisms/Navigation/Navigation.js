@@ -125,6 +125,9 @@ export default function Navi() {
             <BaseLink href="/faqs" composedClassName="nav-link">
               FAQs
             </BaseLink>
+            <BaseLink href="/contact-us" composedClassName="nav-link">
+              Contact us
+            </BaseLink>
           </Nav>
         </Navbar.Collapse>
       </StyledNav>
