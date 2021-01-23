@@ -1,4 +1,4 @@
-# TrainingHub
+# LanguageAcademy
 
 ## Components MVP List
 
@@ -11,19 +11,19 @@
 - [x] EnhancedTiles
 - [x] CourseTiles
 - [x] CourseBlock
-- [ ] Navigation
+- [x] Navigation
 - [x] Footer
 - [x] Back To Top
 - [x] TopBanner Static
-- [ ] TopBanner Slider
+- [x] TopBanner Slider
 - [ ] TopBanner Video
 - [x] TopBanner Course
-- [ ] Accordion
+- [x] Accordion
 - [x] Student Journey
-- [ ] Testimonials
-- [ ] Blogs
-- [ ] Blog Single
-- [ ] Blog Tags
+- [x] Testimonials
+- [x] Blogs
+- [x] Blog Single
+- [x] Blog Tags
 - [x] Contact Form
 - [x] Contact Map GreyScale
 - [ ] Apply Now Form

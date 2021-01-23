@@ -68,8 +68,8 @@ export default class SingleCourseBlock extends React.Component {
   static defaultProps = {
     courseImg: "",
     courseTitle: "Course Coming Soon",
-    courseDescription: "We are working on developing the best IT Course",
-    courseTech: "TrainingHub",
+    courseDescription: "Lets work together and be strong on Languages",
+    courseTech: "LanguageAcademy",
     courseStartDate: "Coming Soon",
     exploreCourseButtonLink: "#",
   };

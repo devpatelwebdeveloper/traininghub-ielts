@@ -49,7 +49,7 @@ export default class TopBannerCourse extends React.PureComponent {
   static defaultProps = {
     courseTitle: "Programs and Courses",
     subtitle: " ",
-    text: `TrainingHub offers a wide variety of programs and courses built on adaptive curriculum and led by leading industry experts.`,
+    text: `Language Academy thrives helping great minds to gain confidence in their career. We empower our students to succeed in this competitive age.`,
     courseImage: "",
     background: SchoolBoard,
   };

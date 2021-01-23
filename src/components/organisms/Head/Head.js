@@ -12,30 +12,30 @@ const Head = ({ title }) => {
       }
     }
   `);
-  const url = "https://www.traininghub.io/";
+  const url = "https://www.languageacademy.ca/";
   return (
     <Helmet title={`${title} | ${data.site.siteMetadata.title}`}>
       <meta
         name="description"
-        content="TrainingHub | Lean your career in IT with TrainingHub.io"
+        content="Language Academy | Learn new language"
       />
 
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="TrainingHub | Your gateway to IT" />
+      <meta property="og:title" content="Language Academy" />
       <meta
         property="og:description"
-        content="TrainingHub.io helps talented professionals and developers find success in IT careers they love through community-oriented classroom training and personalized support."
+        content="Language Academy thrives helping great minds to gain confidence in their career. We empower our students to succeed in this competitive age."
       />
       <meta property="og:url" content={url} />
-      <meta property="og:site_name" content="TrainingHub.io" />
+      <meta property="og:site_name" content="Languageacademy.ca" />
       <meta property="og:image" content={`${url}`} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta
         name="twitter:description"
-        content="TrainingHub.io helps talented professionals and developers find success in IT careers they love through community-oriented classroom training and personalized support."
+        content="Language Academy thrives helping great minds to gain confidence in their career. We empower our students to succeed in this competitive age."
       />
-      <meta name="twitter:title" content="TrainingHub | Your gateway to IT" />
+      <meta name="twitter:title" content="Language Academy" />
       <meta name="twitter:image" content={`${url}`} />
       <link
         href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i&display=swap"

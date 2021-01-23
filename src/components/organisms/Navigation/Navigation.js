@@ -73,7 +73,7 @@ export default function Navi() {
     <>
       <StyledNav expand="lg" sticky="top">
         <BaseLink href="/" composedClassName="nav-link">
-          <img src={Logo} className="logo" alt="TrainingHub.io IELTS" />
+          <img src={Logo} className="logo" alt="Language Academy" />
         </BaseLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">

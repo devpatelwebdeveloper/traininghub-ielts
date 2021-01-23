@@ -75,7 +75,7 @@ export default function Footer() {
       <FooterMain>
         <Row>
           <AddressCol md={10} sm={6}>
-            <FooterLogo src={Logo} alt="TrainingHub.io" />
+            <FooterLogo src={Logo} alt="LanguageAcademy.ca" />
             <Paragraph>
               Language Academy thrives helping great minds to gain confidence in
               their career. We empower our students to succeed in this

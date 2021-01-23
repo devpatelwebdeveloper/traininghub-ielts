@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-hello-world",
   "private": true,
-  "description": "Traininghub Website",
+  "description": "Language Academy Website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -59,6 +59,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devpatelwebdeveloper/traininghub-gatsby"
+    "url": "https://github.com/devpatelwebdeveloper/traininghub-ielts"
   }
 }

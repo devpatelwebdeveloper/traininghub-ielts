@@ -107,7 +107,7 @@ export default function Navigation() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            Traininghub
+            Language Academy
           </Link>
           <button
             className="navbar-toggler"

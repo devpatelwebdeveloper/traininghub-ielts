@@ -50,7 +50,7 @@ export default function TestimonialCard({ quote, avatar, name, course }) {
         <Paragraph>{quote}</Paragraph>
       </TestimonialBody>
       <TestimonialFooter>
-        <img src={avatar} alt={`${name} - ${course} - @TrainingHub.io`} />
+        <img src={avatar} alt={`${name} - ${course} - @LanguageAcademy.ca`} />
         <BaseTitle title={name} size="H3" />
         <BaseTitle title={course} size="H6" />
       </TestimonialFooter>
