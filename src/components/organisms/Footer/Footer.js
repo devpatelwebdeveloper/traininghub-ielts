@@ -130,16 +130,16 @@ export default function Footer() {
         <Row>
           <Col md={8}>
             <Paragraph>
-              {`All Content © Learning Academy ${new Date().getFullYear()}. 'Languageacademy.ca',
+              {`All Content © Language Academy ${new Date().getFullYear()}. 'Languageacademy.ca',
               Languageacademy.ca logo and 'We Deliver What We Promise' are
               trademarks of Languageacademy.ca All Rights Reserved.`}
             </Paragraph>
           </Col>
           <Col md={2}>
             <Paragraph>
-              <BaseLink external href="https://www.traininghub.io/privacy">
+              {/* <BaseLink external href="https://www.traininghub.io/privacy">
                 Privacy
-              </BaseLink>
+              </BaseLink> */}
             </Paragraph>
           </Col>
           <Col md={2}>

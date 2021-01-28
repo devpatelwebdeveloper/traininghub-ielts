@@ -45,11 +45,13 @@ export default function Contact() {
                 Mississauga ON L5T 2J8
               </Paragraph>
               <Paragraph>
-                <Icon size={32} icon={phone} /> 647-722-7220
+                <Icon size={32} icon={phone} /> 647-722-7240
               </Paragraph>
               <Paragraph>
                 <Icon size={32} icon={envelope} />{" "}
-                <a href="mailto:ielts@traininghub.io">ielts@traininghub.io</a>
+                <a href="mailto:info@languageacademy.ca">
+                  info@LanguageAcademy.ca
+                </a>
               </Paragraph>
               <hr />
             </ContactCol>
