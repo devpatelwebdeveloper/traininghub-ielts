@@ -144,7 +144,7 @@ export default function Footer() {
           </Col>
           <Col md={2}>
             <a
-              href="https://www.facebook.com/TrainingHubIELTS"
+              href="https://www.facebook.com/LanguageAcademyCanada"
               target="_blank"
               rel="noopener noreferrer">
               <Icon size={32} icon={facebookSquare} />
