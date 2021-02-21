@@ -13,6 +13,7 @@ import { Icon } from "react-icons-kit";
 import { facebookSquare } from "react-icons-kit/fa/facebookSquare";
 import { twitterSquare } from "react-icons-kit/fa/twitterSquare";
 import { linkedinSquare } from "react-icons-kit/fa/linkedinSquare";
+import { instagram } from "react-icons-kit/fa/instagram";
 import Logo from "../../../images/Logo.png";
 
 const FooterStyle = styled.footer`
@@ -149,13 +150,13 @@ export default function Footer() {
               rel="noopener noreferrer">
               <Icon size={32} icon={facebookSquare} />
             </a>
-            {/* <a
-              href="https://twitter.com/TrainingHubCan"
+            <a
+              href="https://instagram.com/languageacademycan"
               target="_blank"
               rel="noopener noreferrer">
-              <Icon size={32} icon={twitterSquare} />
+              <Icon size={32} icon={instagram} />
             </a>
-            <a
+            {/*<a
               href="https://www.linkedin.com/company/traininghubcan/"
               target="_blank"
               rel="noopener noreferrer">

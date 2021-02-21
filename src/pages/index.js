@@ -142,16 +142,18 @@ export default function Courses() {
       <Head title="IELTS" />
       <Layout>
         <Slider HomePageSlides={HomePageSliders} />
-        {/* <Section marginTop="50px" marginBottom="25px">
+        <Section marginTop="50px" marginBottom="25px">
           <ContentGenericAligned
             textJustified
             imageLeft
-            title="About Instructor"
-            text="This is the text about the instructor"
-            image="https://images.unsplash.com/photo-1597570889212-97f48e632dad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2555&q=80"
+            title="About Instructor - Laura Paterson"
+            text="Laura Paterson is a highly trained and experienced provider of online training for Language Academy from UK. Laura qualified as an English Language teacher at the prestigious British Council,Cairo, Egypt and was immediately recruited to teach both General and Business English to a client base including Vodafone, Pepsi, the National Bank of Egypt and the Egyptian Justice Departments. On return to the UK, she became a specialist examinations teacher at some of the best private language school companies in Europe, devising syllabi, delivering classes and leading in-house teacher training in..."
+            image="https://devashish-lms.s3.ca-central-1.amazonaws.com/ieltsHomePage/LauraPaterson.jpg"
             alt="About Instructor"
+            buttonOneText="Read more"
+            buttonOneLink="/coach"
           />
-        </Section> */}
+        </Section>
 
         {/* <TextRow
           contentCols={contentCols}
